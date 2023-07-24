@@ -1,0 +1,204 @@
+section.summary-component{
+    width: inherit;
+    padding: 20px 25px 20px 35px;
+    flex-direction: column;
+    /* justify-content: center;
+    text-align: center; */
+    
+    }
+    
+    .summary-component-title h2{
+        margin: 0;
+        text-align: start;
+    }
+    
+    .summary-component-list{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+        
+    }
+    
+    .reaction { 
+     display: flex;
+     justify-content: space-between;
+     background-color: #fbedec;
+     border-radius: 10px;
+     padding: 6px 10px 6px 6px ;
+    
+    }
+    
+    .reaction-icon-title{
+        display: inherit;
+        gap: 20px;
+    
+    }
+    
+    .reaction-title p{
+       font-weight: bold; 
+       color: #fe6868;
+       margin-left: 0px;
+    }
+    
+    .memory { 
+        display: flex;
+        justify-content: space-between;
+        background-color: #fbF6EC;
+        border-radius: 10px;
+        padding: 6px 10px 6px 6px ;
+       
+       }
+    
+       .memory-icon-title{
+        display: inherit;
+        gap: 20px;
+    
+    }
+    .memory-title p{
+        font-weight: bold; 
+        color: #fdcc6c;
+     }
+     
+    .Verbal { 
+        display: flex;
+        justify-content: space-between;
+        background-color: #eaf9f7;
+        border-radius: 10px;
+        /* padding: 4px 4px 4px 4px ; */
+        border-bottom: 4px;
+       }
+    
+       .Verbal-icon-title{
+        display: inherit;
+        gap: 20px;
+        
+    }
+    .verbal-title p{
+        font-weight: bold; 
+        margin-left: 20px;
+        margin-top: 10px;
+        color: #38cba9
+     }
+    
+     .visual { 
+        display: flex;
+        justify-content: space-between;
+        background-color: #f3f3fd;
+        border-radius: 10px;
+        padding: 6px 10px 6px 6px ;
+       
+       }
+    
+       .visual-icon-title{
+        display: inherit;
+        gap: 20px;
+    
+    }
+    .visual-title p{
+        font-weight: bold; 
+        color: #1125d6;
+     }
+     
+     .summary-component-button{
+        margin-top: 30px;
+        display: flex;
+        align-content: flex-end;
+        justify-content: space-around
+     }
+    
+     .summary-component-button button{
+        width: 100px;
+        padding: 15px 0;
+        border: none;
+        border-radius: 25px;
+        background-color:#251990;
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+        cursor: pointer;
+        
+     }
+    
+    
+     @media (max-width:900px) {
+        .result-component {
+            width: inherit;
+            padding: 20px 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+            border-radius: inherit;
+            color: #ffffff;
+            background-image: linear-gradient(to left,#4000ff, #804eeb, #605d75);
+          }
+          .numbers span:nth-child{
+            margin-right: 20px;
+          }
+    
+         .numbers{
+            width: 50px;
+            height: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+            border-radius: 50%;
+            background-color: #4B23CA;
+            color: #b9a9fd;
+            font-weight: bold;
+          margin-left: 70px;
+          
+           
+        }   
+        .reaction-title p{
+            font-weight: bold; 
+            color: #fe6868;
+            margin-left: 0px;
+         }
+     }
+     @media (min-width:901px) {
+        .result-component {
+            width: inherit;
+            padding: 20px 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+            border-radius: inherit;
+            color: #ffffff;
+            background-image: linear-gradient(to left,#4000ff, #804eeb, #605d75);  }
+    
+    
+         .numbers{
+            width: 90px;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+            border-radius: 50%;
+            background-color: #4B23CA;
+            color: #b9a9fd;
+            font-weight: bold;
+          margin-left: 90px;
+           
+        }   
+        .reaction-title p{
+            font-weight: bold; 
+            color: #fe6868;
+            margin-left: -80px;
+         }
+     }
+     @media (min-width:1300px)  {
+       .numbers{
+        margin-left: 260px;
+       }
+       .reaction-title p{
+        font-weight: bold; 
+        color: #fe6868;
+        margin-left: -120px;
+     }
+     }
+    
